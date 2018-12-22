@@ -15,5 +15,5 @@
 以下是网页部分截图
 <p>首页</p>
 
-![image](https://github.com/VioletVivI/companyWeb-layui/raw/master/intro/main.jpg)
+![image](https://github.com/VioletVivI/companyWeb-layui/blob/master/intro/main.jpg)
 
