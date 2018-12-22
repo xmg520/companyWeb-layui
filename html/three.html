@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/headfooter.css"/>
+    <link rel="stylesheet" href="../css/three.css"/>
+
+    
+     <link rel="stylesheet" href="../layui/css/layui.css" media="all">
+</head>
+<body>
+    <a name="top"></a>
+    <!-- <div class="container"> -->
+       <header>
+        
+        <div class="top">
+            <div >
+                
+            </div>
+            <div>
+                
+            </div>
+        </div> 
+            <div class="bottom">
+              <ul class="layui-nav main-list"  lay-filter="">
+              <li class="layui-nav-item "><a href="./one.html">首页</a></li>
+              <li class="layui-nav-item ">
+                <a href="./two.html">关于我们</a>
+                <dl class="layui-nav-child"> <!-- 二级菜单 -->
+                  <dd><a href="./two.html?#section-1">公司介绍</a></dd>
+                  <dd><a href="./two.html?#section-2">公司使命</a></dd>
+                  <dd><a href="./two.html?#section-3">公司宗旨</a></dd>
+                </dl>
+              </li>
+              <li class="layui-nav-item"><a href="./three.html">产品与服务</a></li>
+              <li class="layui-nav-item">
+                <a href="./four.html">新闻资讯</a>
+                <dl class="layui-nav-child"> <!-- 二级菜单 -->
+                  <dd><a href="./four.html?#div1">公司动态</a></dd>
+                  <dd><a href="./four.html?#div2">行业资讯</a></dd>
+                </dl>
+              </li>
+              <li class="layui-nav-item"><a href="./one.html?#section-4">联系我们</a>
+              </li>
+              <li class="layui-nav-item "><a href="">登录</a></li>
+            </ul>
+            </div>
+
+    </header>
+        <main>
+        	<section>
+               
+                <div class="title">
+                    <p>产品介绍</p>
+                </div>
+                <div > 
+                <p>功能介绍</p>
+                <ul>
+                    <li>
+                        <strong>
+                            1、xxxxxxxxxxxxx
+                        </strong>
+                      </li>
+                    <li>
+                         <strong>
+                            2、xxxxxxxxxx
+                         </strong>
+                    </li>
+                    <li>
+                         <strong>
+                            3、xxxxxxxxxxxxxx
+                         </strong>
+                    </li>
+                    <li>
+                         <strong>
+                          4、xxxxxxxxxx
+                         </strong>
+                    </li>
+                    <li>
+                        <strong>
+                           5、xxxxxxxxxxxxx
+                        </strong>
+                    </li>
+                    <li>
+                        <strong>
+                          6、xxxxxxxxxx
+                        </strong>
+                    </li>
+                    <li>
+                        <strong>
+                          7、xxxxxxxxxx
+                        </strong>
+                   </li>
+                </ul>
+                </div>
+                <div class="spe-B-wrap">
+                    <h1>特点</h1> 
+                    <div class=" spe-wrap layui-row ">
+                        <div class="spe-s-wrap layui-col-xs12 layui-col-sm12 layui-col-md6 ">
+                             <div class="spe">
+                                 <p>创新设计</p>
+                               <span>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</span>
+                             </div>
+                                
+                            
+                            
+                        </div>
+                        <div class="spe-s-wrap  layui-col-xs12 layui-col-sm12 layui-col-md6 ">
+                        <div class=" spe">
+                            <p>低能耗、低噪音</p>
+                               <span>bbbbbbbbbbbbbbbbbbbb<br>bbbbbbbbbbbbbbbx</span>
+                        </div>
+                         </div>
+                         <div class="spe-s-wrap  layui-col-xs12 layui-col-sm12 layui-col-md6 ">
+                        <div class=" spe">
+                            <p>操作方式简单</p>
+                               <span>ccccccccccccccccccc<br>cccccccccccccccccccc</span>
+                        </div>
+                         </div>
+                          <div class="spe-s-wrap  layui-col-xs12 layui-col-sm12 layui-col-md6 ">
+                    
+                        <div class="spe">
+                            <p>设备扩展能力强</p>
+                               <span>dddddddddddddddddddd<br>dddddddddddddddddddd</span>
+                        </div>
+                        </div>
+                    </div>
+             
+                </div>
+                <div class="layui-row">
+                    <div class="layui-col-xs12 layui-col-sm12 layui-col-md6">项目参数<br>
+                        xxxxxx
+                      xxxxxxxxxxxxxx<br>
+                      xxxxxxxx</div>
+                    <div class="layui-col-xs12 layui-col-sm12 layui-col-md6"></div>
+                
+           </section>
+        </main> 
+        <footer>
+           
+            <div class="back">
+                <p>xxxx有限公司 版权所有<br/>
+请您在交易前确认xxxxxxxx有限公司的资质，谨防受骗。</p>
+                <a href="#top">Back to top</a>
+            </div></div>
+                
+        </footer>
+        <script src="../js/jquery-3.3.1.min.js"></script>
+	<script src="../js/one.js"></script>
+        <script src="../layui/layui.js"></script>
+    <script>
+    layui.use('carousel', function(){
+      var carousel = layui.carousel;
+      //建造实例
+      carousel.render({
+        elem: '#test1'
+        ,width: '100%' //设置容器宽度
+        ,height:'550px'
+        ,arrow: 'always' //始终显示箭头
+        //,anim: 'updown' //切换动画方式
+      });
+    });
+
+    layui.use('element', function(){
+      var element = layui.element;
+      
+      //一些事件监听
+      // element.on('tab(demo)', function(){
+      //   console.log(1);
+      // });
+    });
+    </script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+header{
+	width: 100%;
+	height:200px;
+}
+a{
+	text-decoration: none;
+	color: #6D6D6D;
+}
+.top{
+	width: 100%;
+	height: 120px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+.top div:nth-of-type(1){
+	width: 200px;
+	height: 107px;
+    background:url("../images/logo.gif") ;
+    background-repeat: no-repeat;
+    
+}
+.top div:nth-of-type(2){
+	height: 107px;
+	width: 400px;
+    background:url("../images/tel.gif") ;
+    background-repeat: no-repeat;
+}
+.bottom{
+	width: 100%;
+	display: flex;
+	height: 60px;
+    justify-content: center;
+}
+.bottom .main-list{
+	width: 600px;
+	background-color: #c2c2c2;
+	height: auto;
+	/*将父容器设置了伸缩盒子，子元素默认为伸缩项  float margin*/
+	display: flex;
+}
+footer .back{
+	font-family: "黑体";
+	padding-top: 20px;
+	text-align: center;
+	width: 100%;
+	height: 60px;
+	background: #EBEBEB;
+
+}
+@media screen and (max-width:720px){
+    .bottom{
+    	display: none;
+    }
+}
+

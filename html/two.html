@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+    <link rel="stylesheet" href="../css/headfooter.css"/>
+	<link rel="stylesheet" href="../css/two.css"/>
+    <link rel="stylesheet" href="../layui/css/layui.css" media="all">
+</head>
+<body>
+	<a name="top"></a>
+    <!-- <div class="container"> -->
+           <header>
+            
+                <div class="top">
+                    <div >
+                        
+                    </div>
+                    <div>
+                        
+                    </div>
+                </div>
+        
+                <div class="bottom">
+                  <ul class="layui-nav main-list"  lay-filter="">
+                  <li class="layui-nav-item "><a href="./one.html">首页</a></li>
+                  <li class="layui-nav-item ">
+                    <a href="./two.html">关于我们</a>
+                    <dl class="layui-nav-child"> <!-- 二级菜单 -->
+                      <dd><a href="#section-1">公司介绍</a></dd>
+                      <dd><a href="#section-2">公司使命</a></dd>
+                      <dd><a href="#section-3">公司宗旨</a></dd>
+                    </dl>
+                  </li>
+                  <li class="layui-nav-item"><a href="./three.html">产品与服务</a></li>
+                  <li class="layui-nav-item">
+                    <a href="./four.html">新闻资讯</a>
+                    <dl class="layui-nav-child"> <!-- 二级菜单 -->
+                      <dd><a href="./four.html?#div1">公司动态</a></dd>
+                      <dd><a href="./four.html?#div2">行业资讯</a></dd>
+                    </dl>
+                  </li>
+                  <li class="layui-nav-item"><a href="./one.html?#section-4">联系我们</a>
+                  </li>
+                  <li class="layui-nav-item "><a href="">登录</a></li>
+                </ul>
+                </div>
+
+        </header>
+        <main>
+        	<section id="section-1">
+               
+            <div class="title">
+             <p>公司介绍</p>  
+            </div>
+             <span>
+                 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+             </span>   
+            </section>
+
+            <section id="section-2">
+                <div class="title">
+             <p>公司使命</p> 
+              </div>
+             <span>
+                bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+             </span>  
+            </section>
+
+            <section id="section-3">
+                 <div class="title">
+
+             <p>公司宗旨</p> 
+             </div>
+             <span>
+                cccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+             </span>  
+            </section>
+        </main>
+        <footer>
+           
+            <div class="back">
+            	<p>xxxxxxxxxx有限公司 版权所有<br/>
+请您在交易前确认xxxxxxxxxxx，谨防受骗。</p>
+                <a href="#top">Back to top</a>
+            </div>
+        </footer>
+        <script src="../js/jquery-3.3.1.min.js"></script>
+    	<script src="../js/one.js"></script>
+        <script src="../layui/layui.js"></script>
+        <script>
+        layui.use('carousel', function(){
+          var carousel = layui.carousel;
+          //建造实例
+          carousel.render({
+            elem: '#test1'
+            ,width: '100%' //设置容器宽度
+            ,height:'550px'
+            ,arrow: 'always' //始终显示箭头
+            //,anim: 'updown' //切换动画方式
+          });
+        });
+
+        layui.use('element', function(){
+          var element = layui.element;
+          
+          //一些事件监听
+          // element.on('tab(demo)', function(){
+          //   console.log(1);
+          // });
+        });
+        </script>
+</body>
+</html>
