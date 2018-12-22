@@ -12,4 +12,7 @@
 <p>【联系我们】跳转到首页的联系我们模块</p>
 <p>【登录】（待完善）</p>
 
+以下是网页部分截图
+<p>首页</p>
+![image](https://github.com/VioletVivI/companyWeb-layui/blob/master/intro/main.jpg)
 
