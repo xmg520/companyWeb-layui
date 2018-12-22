@@ -13,7 +13,26 @@
 <p>【登录】（待完善）</p>
 
 以下是网页部分截图
-<p>首页</p>
+<p><strong>首页</strong></p>
 
 ![image](https://github.com/VioletVivI/companyWeb-layui/blob/master/intro/main.jpg)
+
+<p>......</p>
+
+![image](https://github.com/VioletVivI/companyWeb-layui/blob/master/intro/show.jpg)
+
+<p>......</p>
+
+
+![image](https://github.com/VioletVivI/companyWeb-layui/blob/master/intro/contact.png)
+
+<p><strong>产品与服务</strong></p>
+
+![image](https://github.com/VioletVivI/companyWeb-layui/blob/master/intro/introduce.jpg)
+
+
+<p><strong>新闻资讯</strong></p>
+
+![image](https://github.com/VioletVivI/companyWeb-layui/blob/master/intro/news.jpg)
+
 
